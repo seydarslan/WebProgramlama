@@ -1,11 +1,15 @@
 <template>
     <v-container style="width: 940px; height: 400px">
-        <v-carousel hide-delimiters
+        <v-carousel cycle
+        
+        hide-delimiters
                     height="400">
             <v-carousel-item class="image"
                              v-for="(item,i) in items"
                              :key="i"
                              :src="item.src">
+
+                            
 
             </v-carousel-item>
         </v-carousel>
