@@ -1,7 +1,7 @@
 <template>
     <v-container style="width: 940px; height: 400px">
         <v-carousel cycle
-        
+        :show-arrows="false"
         hide-delimiters
                     height="400">
             <v-carousel-item class="image"
